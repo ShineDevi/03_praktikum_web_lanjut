@@ -23,7 +23,7 @@ use App\Http\Controllers\ContactController;
 // Route::get('/', function () {
 //     return "Ini adalah halaman awal Home";
 // });
-Route::get('home', function () {
+Route::get('/', function () {
     return view('master',[
         'title'=>'Halaman Home'
     ]);
