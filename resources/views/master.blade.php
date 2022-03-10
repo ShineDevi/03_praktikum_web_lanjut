@@ -7,7 +7,7 @@
                         <div class="col-md-3 col-sm-3 col-xs-6 width-50">
                             <div class="service-details text-center">
                                 <div class="service-image">
-                                    <img alt="image" class="img-responsive" src="{{ asset('style/images/icons/wifi.png')}}">
+                                    <img alt="image" class="img-responsive" src="{{ asset('images/icons/wifi.png')}}">
                                 </div>
                                 <h4><a>free wifi</a></h4>
                             </div>
@@ -15,7 +15,7 @@
                         <div class="col-md-3 col-sm-3 col-xs-6 width-50">
                             <div class="service-details text-center">
                                 <div class="service-image">
-                                    <img alt="image" class="img-responsive" src="{{ asset('style/images/icons/key.png')}}">
+                                    <img alt="image" class="img-responsive" src="{{ asset('images/icons/key.png')}}">
                                 </div>
                                 <h4><a>room service</a></h4>
                             </div>
@@ -23,7 +23,7 @@
                         <div class="col-md-3 col-sm-3 col-xs-6 mt-25">
                             <div class="service-details text-center">
                                 <div class="service-image">
-                                    <img alt="image" class="img-responsive" src="{{ asset('style/images/icons/car.png')}}">
+                                    <img alt="image" class="img-responsive" src="{{ asset('images/icons/car.png')}}">
                                 </div>
                                 <h4><a>free parking</a></h4>
                             </div>
@@ -31,7 +31,7 @@
                         <div class="col-md-3 col-sm-3 col-xs-6 mt-25">
                             <div class="service-details text-center">
                                 <div class="service-image">
-                                    <img alt="image" class="img-responsive" src="{{ asset('style/images/icons/user.png')}}">
+                                    <img alt="image" class="img-responsive" src="{{ asset('images/icons/user.png')}}">
                                 </div>
                                 <h4><a>customer support</a></h4>
                             </div>
@@ -46,36 +46,36 @@
                     <div class="row">
                         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
                             <div class="gallery-image">
-                                <img class="img-responsive" src="{{ asset('style/images/room1.png')}}">
+                                <img class="img-responsive" src="{{ asset('images/room1.png')}}">
                                 <div class="overlay">
-                                    <a class="info pop example-image-link img-responsive" href="{{ asset('style/images/room1.png')}}" data-lightbox="example-1"><i class="fa fa-search" aria-hidden="true"></i></a>
+                                    <a class="info pop example-image-link img-responsive" href="{{ asset('images/room1.png')}}" data-lightbox="example-1"><i class="fa fa-search" aria-hidden="true"></i></a>
                                     <p><a>delux room</a></p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
                             <div class="gallery-image">
-                                <img class="img-responsive" src="{{ asset('style/images/room2.png')}}">
+                                <img class="img-responsive" src="{{ asset('images/room2.png')}}">
                                 <div class="overlay">
-                                    <a class="info pop example-image-link img-responsive" href="{{ asset('style/images/room2.png')}}" data-lightbox="example-1"><i class="fa fa-search" aria-hidden="true"></i></a>
+                                    <a class="info pop example-image-link img-responsive" href="{{ asset('images/room2.png')}}" data-lightbox="example-1"><i class="fa fa-search" aria-hidden="true"></i></a>
                                     <p><a>super room</a></p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
                             <div class="gallery-image">
-                                <img class="img-responsive" src="{{ asset('style/images/room3.png')}}">
+                                <img class="img-responsive" src="{{ asset('images/room3.png')}}">
                                 <div class="overlay">
-                                    <a class="info pop example-image-link img-responsive" href="{{ asset('style/images/room3.png')}}" data-lightbox="example-1"><i class="fa fa-search" aria-hidden="true"></i></a>
+                                    <a class="info pop example-image-link img-responsive" href="{{ asset('images/room3.png')}}" data-lightbox="example-1"><i class="fa fa-search" aria-hidden="true"></i></a>
                                     <p><a>single room</a></p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
                             <div class="gallery-image">
-                                <img class="img-responsive" src="{{ asset('style/images/room4.png')}}">
+                                <img class="img-responsive" src="{{ asset('images/room4.png')}}">
                                 <div class="overlay">
-                                    <a class="info pop example-image-link img-responsive" href="{{ asset('style/images/room4.png')}}" data-lightbox="example-1"><i class="fa fa-search" aria-hidden="true"></i></a>
+                                    <a class="info pop example-image-link img-responsive" href="{{ asset('images/room4.png')}}" data-lightbox="example-1"><i class="fa fa-search" aria-hidden="true"></i></a>
                                     <p><a>double room</a></p>
                                 </div>
                             </div>
@@ -110,7 +110,7 @@
                             <div class="side-A">
                                 <div class="product-thumb">
                                     <div class="image">
-                                        <a><img src="{{ asset('style/images/category1.png')}}" class="img-responsive" alt="image"></a>
+                                        <a><img src="{{ asset('images/category1.png')}}" class="img-responsive" alt="image"></a>
                                     </div>
                                 </div>
                             </div>
@@ -118,7 +118,7 @@
                                 <div class="product-desc-side">
                                     <h3><a>luxury spa</a></h3>
                                     <p>Lorem ipsum dolor sit amet, consec adipiscing elit. Nunc lorem nulla, ornare eu felis luctus non maximus vitae, portt neque. ipsum dolor sit amet, consec adipiscing elit.</p>
-                                    <div class="links"><a href="{{ asset('style/single-blog.html')}}">Read more</a></div>
+                                    <div class="links"><a href="{{ asset('single-blog.html')}}">Read more</a></div>
                                 </div>
                             </div>
                         </div>
@@ -127,7 +127,7 @@
                             <div class="side-A">
                                 <div class="product-thumb">
                                     <div class="image">
-                                        <a><img alt="image" class="img-responsive" src="{{ asset('style/images/category2.png')}}"></a>
+                                        <a><img alt="image" class="img-responsive" src="{{ asset('images/category2.png')}}"></a>
                                     </div>
                                 </div>
                             </div>
@@ -135,7 +135,7 @@
                                 <div class="product-desc-side">
                                     <h3><a>Beatusish ingl</a></h3>
                                     <p>Lorem ipsum dolor sit amet, consec adipiscing elit. Nunc lorem nulla, ornare eu felis luctus non maximus vitae, portt neque. ipsum dolor sit amet, consec adipiscing elit.</p>
-                                    <div class="links"><a href="{{ asset('style/single-blog.html')}}">Read more</a></div>
+                                    <div class="links"><a href="{{ asset('single-blog.html')}}">Read more</a></div>
                                 </div>
                             </div>
                         </div>
@@ -145,14 +145,14 @@
                                 <div class="product-desc-side">
                                     <h3><a>luxury room</a></h3>
                                     <p>Lorem ipsum dolor sit amet, consec adipiscing elit. Nunc lorem nulla, ornare eu felis luctus non maximus vitae, portt neque. ipsum dolor sit amet, consec adipiscing elit.</p>
-                                    <div class="links"><a href="{{ asset('style/single-blog.html')}}">Read more</a></div>
+                                    <div class="links"><a href="{{ asset('single-blog.html')}}">Read more</a></div>
                                 </div>
                             </div>
 
                             <div class="side-B">
                                 <div class="product-thumb">
                                     <div class="image txt-rgt">
-                                        <a class="arrow-left"><img src="{{ asset('style/images/category3.png')}}" class="img-responsive" alt="imaga"></a>
+                                        <a class="arrow-left"><img src="{{ asset('images/category3.png')}}" class="img-responsive" alt="imaga"></a>
                                     </div>
                                 </div>
                             </div>
@@ -163,14 +163,14 @@
                                 <div class="product-desc-side">
                                     <h3><a>heaven seanery</a></h3>
                                     <p>Lorem ipsum dolor sit amet, consec adipiscing elit. Nunc lorem nulla, ornare eu felis luctus non maximus vitae, portt neque. ipsum dolor sit amet, consec adipiscing elit.</p>
-                                    <div class="links"><a href="{{ asset('style/single-blog.html')}}">Read more</a></div>
+                                    <div class="links"><a href="{{ asset('single-blog.html')}}">Read more</a></div>
                                 </div>
                             </div>
 
                             <div class="side-B">
                                 <div class="product-thumb txt-rgt">
                                     <div class="image">
-                                        <a class="arrow-left"><img src="{{ asset('style/images/category4.png')}}" class="img-responsive" alt="imaga"></a>
+                                        <a class="arrow-left"><img src="{{ asset('images/category4.png')}}" class="img-responsive" alt="imaga"></a>
                                     </div>
                                 </div>
                             </div>
@@ -201,7 +201,7 @@
                                     <div class="blog-view-box">
                                         <div class="media">
                                             <div class="media-left">
-                                                <img src="{{ asset('style/images/client1.png')}}" class="media-object">
+                                                <img src="{{ asset('images/client1.png')}}" class="media-object">
                                             </div>
                                             <div class="media-body">
                                                 <h3 class="media-heading blog-title">Walter Hucko</h3>
@@ -217,7 +217,7 @@
                                     <div class="blog-view-box">
                                         <div class="media">
                                             <div class="media-left">
-                                                <img src="{{ asset('style/images/client2.png')}}" class="media-object">
+                                                <img src="{{ asset('images/client2.png')}}" class="media-object">
                                             </div>
                                             <div class="media-body">
                                                 <h3 class="media-heading blog-title">Jules Boutin</h3>
@@ -233,7 +233,7 @@
                                     <div class="blog-view-box">
                                         <div class="media">
                                             <div class="media-left">
-                                                <img src="{{ asset('style/images/client3.png')}}" class="media-object">
+                                                <img src="{{ asset('images/client3.png')}}" class="media-object">
                                             </div>
                                             <div class="media-body">
                                                 <h3 class="media-heading blog-title">Attilio Marzi</h3>
@@ -256,7 +256,7 @@
                         <div class="view-set-block">
                             <div class="col-md-6 col-sm-6 col-xs-12">
                                 <div class="event-blog-image">
-                                    <img alt="image" class="img-responsive" src="{{ asset('style/images/blog1.png')}}">
+                                    <img alt="image" class="img-responsive" src="{{ asset('images/blog1.png')}}">
                                 </div>
                             </div>
                             <div class="col-md-6 col-sm-6 col-xs-12 side-in-image">
@@ -274,7 +274,7 @@
                         <div class="view-set-block">
                             <div class="col-md-6 col-sm-6 col-xs-12">
                                 <div class="event-blog-image">
-                                    <img alt="image" class="img-responsive" src="{{ asset('style/images/blog2.png')}}">
+                                    <img alt="image" class="img-responsive" src="{{ asset('images/blog2.png')}}">
                                 </div>
                             </div>
                             <div class="col-md-6 col-sm-6 col-xs-12 side-in-image">

@@ -30,34 +30,56 @@ Route::get('/', function () {
 })->name('home');
 
 Route::get('about', function () {
-    return view('master');
-});
+    return view('about',[
+        'title'=>'Halaman About'
+    ]);
+})->name('about');
 
-Route::prefix('/category')->group(function () {
-    Route::get('/marbel-edu-games', function () {
-        return "Ini adalah halaman daftar product Marbel Edu Games";
-    });
-    Route::get('/marbel-and-friends-kids-games', function () {
-        return "Ini adalah halaman daftar product Marbel and Friends Kids Games";
-    });
-    Route::get('/riri-story-books', function () {
-        return "Ini adalah halaman daftar product Riri Story Books";
-    });
-    Route::get('/kolak-kids-songs', function () {
-        return "Ini adalah halaman daftar product Kolak Kids Songs";
-    });
-});
+Route::get('rooms', function () {
+    return view('rooms',[
+        'title'=>'Halaman Rooms'
+    ]);
+})->name('rooms');
+
+Route::get('news', function () {
+    return view('news',[
+        'title'=>'Halaman News'
+    ]);
+})->name('news');
+
+Route::get('dinning', function () {
+    return view('dinning',[
+        'title'=>'Halaman Dinning'
+    ]);
+})->name('dinning');
+
+Route::get('contact', function () {
+    return view('contact',[
+        'title'=>'Halaman Contact'
+    ]);
+})->name('contact');
+
+// Route::prefix('/category')->group(function () {
+//     Route::get('/marbel-edu-games', function () {
+//         return "Ini adalah halaman daftar product Marbel Edu Games";
+//     });
+//     Route::get('/marbel-and-friends-kids-games', function () {
+//         return "Ini adalah halaman daftar product Marbel and Friends Kids Games";
+//     });
+//     Route::get('/riri-story-books', function () {
+//         return "Ini adalah halaman daftar product Riri Story Books";
+//     });
+//     Route::get('/kolak-kids-songs', function () {
+//         return "Ini adalah halaman daftar product Kolak Kids Songs";
+//     });
+// });
 // // Menampilkan daftar product ( route prefix)
 // // https://www.educastudio.com/category/marbel-edu-games
 // // https://www.educastudio.com/category/marbel-and-friends-kids-games
 // // https://www.educastudio.com/category/riri-story-books
 // // https://www.educastudio.com/category/kolak-kids-songs
 
-Route::get('news', function () {
-        return view('news',[
-            'title'=>'Halaman News'
-        ]);
-})->name('news');
+
 // // Menampilkan Daftar berita (route param)
 // // https://www.educastudio.com/news
 // // https://www.educastudio.com/news/educa-studio-berbagi-untuk-warga-sekitarterdampak-covid-19

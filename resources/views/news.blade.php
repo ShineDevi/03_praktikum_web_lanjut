@@ -1,6 +1,6 @@
 @extends('layouts.main')
 @section('main_content')
-<section class="image-head-wrapper" style="background-image: {{URL::asset('style/images/banner5.jpg')}};">
+<section class="image-head-wrapper" style="background-image: {{URL::asset('images/banner5.jpg')}};">
                 <div class="inner-wrapper">
                     <h1>News</h1>
                 </div>
@@ -14,7 +14,7 @@
                             <div class="side-A">
                                 <div class="product-thumb">
                                     <div class="image">
-                                        <a href="single-blog.html"><img alt="image" class="img-responsive" src="{{ asset('style/images/category1.png')}}"></a>
+                                        <a href="single-blog.html"><img alt="image" class="img-responsive" src="{{ asset('images/category1.png')}}"></a>
                                     </div>
                                 </div>
                             </div>
@@ -31,7 +31,7 @@
                             <div class="side-A">
                                 <div class="product-thumb">
                                     <div class="image">
-                                        <a href="single-blog.html"><img src="{{ asset('style/images/category2.png')}}" class="img-responsive" alt="image"></a>
+                                        <a href="single-blog.html"><img src="{{ asset('images/category2.png')}}" class="img-responsive" alt="image"></a>
                                     </div>
                                 </div>
                             </div>
@@ -57,7 +57,7 @@
                             <div class="side-B">
                                 <div class="product-thumb">
                                     <div class="image txt-rgt">
-                                        <a class="arrow-left" href="single-blog.html"><img alt="imaga" class="img-responsive" src="{{ asset('style/images/category3.png')}}"></a>
+                                        <a class="arrow-left" href="single-blog.html"><img alt="imaga" class="img-responsive" src="{{ asset('images/category3.png')}}"></a>
                                     </div>
                                 </div>
                             </div>
@@ -75,7 +75,7 @@
                             <div class="side-B">
                                 <div class="product-thumb txt-rgt">
                                     <div class="image">
-                                        <a class="arrow-left" href="single-blog.html"><img alt="imaga" class="img-responsive" src="{{ asset('style/images/category4.png')}}"></a>
+                                        <a class="arrow-left" href="single-blog.html"><img alt="imaga" class="img-responsive" src="{{ asset('images/category4.png')}}"></a>
                                     </div>
                                 </div>
                             </div>
